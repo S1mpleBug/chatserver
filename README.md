@@ -159,7 +159,7 @@ cd /usr/local/nginx/sbin
 ./nginx -s stop
 ```
 
-重新加载配置文件（配置文件所在路径：`/usr/local/nginx/conf/nginx.conf`）启动：
+配置配置文件`nginx.conf`（配置文件所在路径：`/usr/local/nginx/conf/nginx.conf`），配置如下：
 ```nginx
 # nginx tcp loadbalance config
 stream {
@@ -177,3 +177,4 @@ stream {
         }
 }
 ```
+配置完成后，`./nginx -s reload`平滑重启。
