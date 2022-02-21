@@ -86,9 +86,9 @@ apt-get install mysql-server  # 安装最新版MySQL服务器
 apt-get install libmysqlclient-dev  # 安装开发包
 ```
 
+* `MySQL`连接账号密码设置见`chatserver/src/server/db/db.cpp`
 * 数据库操作细节参考：[link](https://zhuanlan.zhihu.com/p/115534006)
 * 出现登录错误参考：[link](https://blog.csdn.net/weixin_42507981/article/details/113292645)
-
 
 ### Redis配置
 
@@ -131,7 +131,7 @@ sudo apt-get install zlib1g-dev
 sudo apt-get install openssl libssl-dev 
 ```
 
-安装上述依赖环境`pcre`、`zlib`、`openssl`后，将`./details`内的 [nginx-1.12.2.tar.gz](http://nginx.org/download/nginx-1.12.2.tar.gz) 在指定目录解压：
+安装上述依赖环境`pcre`、`zlib`、`openssl`后，将`details`内的 [nginx-1.12.2.tar.gz](http://nginx.org/download/nginx-1.12.2.tar.gz) 在指定目录解压：
 
 ```sh
 tar -axvf nginx-1.12.2.tar.gz
