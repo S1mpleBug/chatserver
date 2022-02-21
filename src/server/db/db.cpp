@@ -2,10 +2,10 @@
 #include <muduo/base/Logging.h>
 
 // 数据库配置信息
-static string server = "127.0.0.1";
-static string user = "root";
-static string password = "gc348342215";
-static string dbname = "chat";
+static string server = "127.0.0.1";     // 数据库ip
+static string user = "root";            // 数据库连接用户
+static string password = "123456";      // 数据库连接时的代码
+static string dbname = "chat";          // 创建的数据库名
 
 // 初始化数据库连接
 MySQL::MySQL()
